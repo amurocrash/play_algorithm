@@ -1,0 +1,3 @@
+var countSegments = function(s) {
+  
+}
