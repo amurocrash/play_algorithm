@@ -1,3 +1,0 @@
-var constructRectangle = function(area) {
-
-}
