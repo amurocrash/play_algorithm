@@ -112,6 +112,20 @@ function calFullPermutation(data, from, to, selected) {
   return res
 }
 
+function isPrime(num) {
+  if (num < 2) {
+    return false
+  }
+
+  for(let i = 2; i * i <= num; i++) {
+    if (num % i === 0) {
+      return false
+    }
+  }
+
+  return true
+}
+
 module.exports = {
   defaultSort,
   generateArr,
@@ -121,5 +135,6 @@ module.exports = {
   isLetter,
   isNumber,
   toNumber,
-  calFullPermutation
+  calFullPermutation,
+  isPrime,
 }

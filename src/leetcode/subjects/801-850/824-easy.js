@@ -1,0 +1,3 @@
+var toGoatLatin = function(sentence) {
+
+}
